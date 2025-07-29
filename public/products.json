@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 99.99,
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "price": 199.99,
+    "category": "Electronics",
+    "rating": 4.7,
+    "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 3,
+    "name": "Laptop Backpack",
+    "price": 49.99,
+    "category": "Accessories",
+    "rating": 4.3,
+    "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 4,
+    "name": "Coffee Mug",
+    "price": 19.99,
+    "category": "Home",
+    "rating": 4.1,
+    "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "price": 79.99,
+    "category": "Electronics",
+    "rating": 4.6,
+    "image": "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 6,
+    "name": "Yoga Mat",
+    "price": 29.99,
+    "category": "Sports",
+    "rating": 4.4,
+    "image": "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 7,
+    "name": "Phone Case",
+    "price": 24.99,
+    "category": "Accessories",
+    "rating": 4.2,
+    "image": "https://images.pexels.com/photos/1275229/pexels-photo-1275229.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 8,
+    "name": "Running Shoes",
+    "price": 129.99,
+    "category": "Sports",
+    "rating": 4.8,
+    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 9,
+    "name": "Gaming Mouse",
+    "price": 59.99,
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 10,
+    "name": "Water Bottle",
+    "price": 22.99,
+    "category": "Sports",
+    "rating": 4.3,
+    "image": "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 11,
+    "name": "Desk Lamp",
+    "price": 39.99,
+    "category": "Home",
+    "rating": 4.4,
+    "image": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 12,
+    "name": "Wireless Charger",
+    "price": 34.99,
+    "category": "Electronics",
+    "rating": 4.2,
+    "image": "https://images.pexels.com/photos/4992639/pexels-photo-4992639.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 13,
+    "name": "Notebook Set",
+    "price": 15.99,
+    "category": "Accessories",
+    "rating": 4.1,
+    "image": "https://images.pexels.com/photos/159751/book-address-book-learning-learn-159751.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 14,
+    "name": "Fitness Tracker",
+    "price": 89.99,
+    "category": "Sports",
+    "rating": 4.6,
+    "image": "https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 15,
+    "name": "Table Plant",
+    "price": 18.99,
+    "category": "Home",
+    "rating": 4.3,
+    "image": "https://images.pexels.com/photos/1084542/pexels-photo-1084542.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 16,
+    "name": "Sunglasses",
+    "price": 45.99,
+    "category": "Accessories",
+    "rating": 4.4,
+    "image": "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 17,
+    "name": "Keyboard",
+    "price": 69.99,
+    "category": "Electronics",
+    "rating": 4.5,
+    "image": "https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 18,
+    "name": "Candle Set",
+    "price": 26.99,
+    "category": "Home",
+    "rating": 4.2,
+    "image": "https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 19,
+    "name": "Travel Mug",
+    "price": 32.99,
+    "category": "Accessories",
+    "rating": 4.3,
+    "image": "https://images.pexels.com/photos/374887/pexels-photo-374887.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 20,
+    "name": "Tablet Stand",
+    "price": 28.99,
+    "category": "Electronics",
+    "rating": 4.1,
+    "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=400"
+  }
+]
