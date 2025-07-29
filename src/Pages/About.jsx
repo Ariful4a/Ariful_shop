@@ -2,7 +2,7 @@ import { Link } from 'react-router';
 
 const About = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#32327d] px-4">
+    <div className="mw-full flex justify-center items-center h-screen bg-gradient-to-br from-[#2a3d6b] via-[#33568d] to-[#1f492e] text-white">
       <div className="text-center space-y-6">
         <h1 className="text-4xl font-bold text-white">About Page</h1>
         <p className="text-purple-200">This is a simple about page.</p>

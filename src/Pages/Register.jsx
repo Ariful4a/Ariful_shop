@@ -3,7 +3,7 @@ import { Mail, Lock, User, Eye, ArrowRight } from 'lucide-react';
 
 const Register = () => {
   return (
-    <div className="min-h-screen bg-[#32327d] flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-[#2a3d6b] via-[#33568d] to-[#1f492e] flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         
         {/* Header */}
@@ -18,7 +18,7 @@ const Register = () => {
         </div>
 
         {/* Form */}
-        <div className="bg-white/5 backdrop-blur-sm rounded-2xl shadow-2xl shadow-black p-8 border border-white/10">
+        <div className="bg-[#32327d]  backdrop-blur-sm rounded-2xl shadow-2xl shadow-black p-8 border border-white/10">
           <form className="space-y-6">
             {/* Full Name */}
             <div>

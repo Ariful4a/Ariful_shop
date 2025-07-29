@@ -26,7 +26,7 @@ const Products = () => {
 
 if (loading) {
   return (
-    <div className="min-h-screen bg-[#1f1f46] flex items-center justify-center">
+    <div className="w-full h-screen flex items-center justify-center bg-gradient-to-br from-[#2a3d6b] via-[#33568d] to-[#1f492e] text-white">
       <CirclesWithBar
         height="100"
         width="100"
