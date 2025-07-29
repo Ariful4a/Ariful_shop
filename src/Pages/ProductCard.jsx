@@ -5,7 +5,7 @@ const ProductCard = ({ item, onAddToCart, onToggleFavorite }) => {
   const { name, price, image, category, rating } = item;
 
   return (
-    <div className="bg-white/5 backdrop-blur-sm rounded-xl shadow-lg border border-white/10 overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105">
+    <div className="bg-black/40 backdrop-blur-sm rounded-xl shadow-2xl shadow-black border border-white/10 overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105">
       {/* Product Image */}
       <div className="relative h-48 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
         {image ? (
@@ -24,7 +24,7 @@ const ProductCard = ({ item, onAddToCart, onToggleFavorite }) => {
       </div>
 
       {/* Product Details */}
-      <div className="p-4">
+      <div className="p-4 bg-[#32327d]">
         <h3 className="text-white font-semibold text-lg mb-2 truncate">{name}</h3>
 
         {/* Rating */}
@@ -52,7 +52,7 @@ const ProductCard = ({ item, onAddToCart, onToggleFavorite }) => {
         {/* Add to Cart Button */}
         <button
           onClick={() => onAddToCart && onAddToCart(item)}
-          className="w-full bg-white hover:bg-white/30 text-white py-2 px-4 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2"
+          className="w-full bg-orange-700 hover:bg-white/30 text-white py-2 px-4 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2"
         >
           <ShoppingCart size={16} />
           <span>Add to Cart</span>

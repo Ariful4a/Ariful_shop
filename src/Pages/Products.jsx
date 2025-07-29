@@ -27,7 +27,7 @@ const Products = () => {
 //   }
 
   return (
-    <div>
+    <div className="bg-[#32327d]">
       {/* Hero  */}
       <section>
         <section
