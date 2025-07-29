@@ -28,7 +28,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-700 to-purple-900">
+    <div className="min-h-screen bg-[#32327d]">
       {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
@@ -79,7 +79,7 @@ const Home = () => {
               return (
                 <div
                   key={index}
-                  className="relative bg-[#373780] text-white p-8 rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 text-center"
+                  className="relative bg-[#32327d] text-white p-8 rounded-2xl shadow-2xl shadow-black transition-all duration-300 hover:shadow-2xl hover:scale-105 text-center"
                 >
                   {/* Top-left round dot */}
                   <span className="absolute top-4 left-4 w-3 h-3 bg-white/90 rounded-full"></span>

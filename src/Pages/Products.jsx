@@ -1,37 +1,51 @@
 import { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
+import { CirclesWithBar } from "react-loader-spinner";
 
 
 const Products = () => {
   const [products, setProducts] = useState([]);
+  const [loading, setLoding] = useState(true);
 
-  useEffect(()=>{
+  useEffect(() => {
+    setLoding(true);
+
     fetch('products.json')
-    .then(res => res.json())
-    .then(data => setProducts(data))
-  }, [])
+      .then(res => res.json())
+      .then(data => {
+        setProducts(data);
+        setTimeout(() => {
+          setLoding(false);
+        }, 1000); 
+      });
+  }, []);
 
- 
 
-//   const [loading, setLoding] = useState(true);
+if (loading) {
+  return (
+    <div className="min-h-screen bg-[#1f1f46] flex items-center justify-center">
+      <CirclesWithBar
+        height="100"
+        width="100"
+        color="#4fa94d"
+        outerCircleColor="#4fa94d"
+        innerCircleColor="#4fa94d"
+        barColor="#4fa94d"
+        ariaLabel="circles-with-bar-loading"
+        visible={true}
+      />
+    </div>
+  );
+}
 
-//   if (loading) {
-//     return (
-//       <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-700 to-purple-900 flex items-center justify-center">
-//         <div className="text-center">
-//           <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-white mx-auto mb-4"></div>
-//           <p className="text-white text-xl">Loading products...</p>
-//         </div>
-//       </div>
-//     );
-//   }
+
 
   return (
     <div className="bg-[#32327d]">
       {/* Hero  */}
       <section>
         <section
-          className="relative bg-cover bg-center h-96 flex items-center justify-center"
+          className="relative bg-cover bg-center h-96 flex items-center justify-center mt-20"
           style={{
             backgroundImage:
               "url('https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg')",
@@ -55,10 +69,10 @@ const Products = () => {
 
         {/* show products */}
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto mt-10">
-            {
-                products.map(item => <ProductCard key={item.id} item={item}></ProductCard>)
-            }
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-7xl mx-auto mt-10">
+          {
+            products.map(item => <ProductCard key={item.id} item={item}></ProductCard>)
+          }
         </div>
       </section>
     </div>

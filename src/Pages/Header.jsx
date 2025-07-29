@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <div className="relative">
       {/* Header with purple gradient background matching the design */}
-      <header className="bg-gradient-to-br from-purple-600 via-purple-700 to-purple-900 shadow-2xl">
+    <header className="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-[#32327d] via-[#3f3f91] to-[#4c4ca6] shadow-2xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4 md:py-6">
             {/* Logo/Brand */}
