@@ -1,6 +1,6 @@
 import { Star, ShoppingCart, Heart } from 'lucide-react';
 
-const ProductCard = ({ item }) => {
+const ProductCard = ({ item, onAddToCart }) => {
   const { name, price, image, category, rating } = item;
 
   return (
@@ -53,6 +53,7 @@ const ProductCard = ({ item }) => {
 
         {/* Add to Cart */}
         <button
+        onClick={() => onAddToCart(item)}
           className="w-full bg-sky-700 hover:bg-white/30 text-white py-2 px-4 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2"
         >
           <ShoppingCart size={16} />

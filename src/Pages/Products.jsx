@@ -20,6 +20,9 @@ const Products = () => {
       });
   }, []);
 
+  const AddtoCart = (product) =>{
+    alert(`Add Succesfully......... ${product.name} ........:)`)
+  }
 
 if (loading) {
   return (
@@ -71,7 +74,7 @@ if (loading) {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-7xl mx-auto mt-10">
           {
-            products.map(item => <ProductCard key={item.id} item={item}></ProductCard>)
+            products.map(item => <ProductCard key={item.id} item={item} onAddToCart={AddtoCart}></ProductCard>)
           }
         </div>
       </section>
