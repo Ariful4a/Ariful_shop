@@ -41,7 +41,7 @@ if (loading) {
 
 
   return (
-    <div className="bg-[#32327d]">
+    <div className="bg-[#32327d] pb-20">
       {/* Hero  */}
       <section>
         <section

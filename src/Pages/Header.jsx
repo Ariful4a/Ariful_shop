@@ -12,7 +12,7 @@ const Header = () => {
     { name: "Home", path: "/", icon: Home },
     { name: "Products", path: "/products", icon: ShoppingBag },
     { name: "About", path: "/about", icon: User },
-    { name: "Login", path: "/login", icon: LogIn },
+    { name: "Login", path: "/login", icon: LogIn }
   ];
 
   // Check if current path is active

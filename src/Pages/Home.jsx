@@ -30,12 +30,12 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-[#32327d]">
       {/* Hero Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8 pt-40">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Welcome to Our
             <span className="block bg-gradient-to-r from-purple-200 to-white bg-clip-text text-transparent">
-              Portfolio Website
+              Ariful shop Website
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-purple-200 mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -145,7 +145,7 @@ const Home = () => {
           </p>
           <Link
             to="/login"
-            className="inline-flex items-center px-8 py-4 bg-white text-purple-900 font-semibold rounded-lg hover:bg-purple-50 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+            className="inline-flex items-center px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-sm transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
           >
             Join Now
             <ArrowRight size={20} className="ml-2" />

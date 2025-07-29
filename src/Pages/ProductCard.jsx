@@ -15,13 +15,13 @@ const ProductCard = ({ item }) => {
             <div className="text-white text-4xl font-bold">{name.charAt(0)}</div>
           )}
 
-          {/* Favorite Button - now static */}
+          {/* Favorite Button*/}
           <div className="absolute top-3 right-3 p-2 rounded-full bg-white/20 text-white">
             <Heart size={16} />
           </div>
         </div>
 
-        {/* ✅ Animated Border */}
+        {/* Animated Border */}
         <div className="h-[4px] bg-[conic-gradient(purple)]" />
       </div>
 
@@ -53,7 +53,7 @@ const ProductCard = ({ item }) => {
 
         {/* Add to Cart */}
         <button
-          className="w-full bg-orange-700 hover:bg-white/30 text-white py-2 px-4 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2"
+          className="w-full bg-sky-700 hover:bg-white/30 text-white py-2 px-4 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2"
         >
           <ShoppingCart size={16} />
           <span>Add to Cart</span>
